@@ -23,7 +23,6 @@ typedef NS_ENUM(NSInteger, PostType) {
 @required
 -(PostType) type;
 -(id) initWithPost:(TBXMLElement *)post;
--(NSAttributedString *) attributedText;
 @end
 
 @interface Post : NSObject<PostProtocol>
@@ -32,6 +31,7 @@ typedef NS_ENUM(NSInteger, PostType) {
 }
 
 -(id) initWithPostXML:(TBXMLElement *)post;
+-(NSAttributedString *) attributedText;
 
 @end
 

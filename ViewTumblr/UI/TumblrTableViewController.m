@@ -222,7 +222,7 @@
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (indexPath.section >= [[AppSystem inst].postsArray count] && [AppSystem inst].postCount >  [[AppSystem inst].postsArray count])
+    if (indexPath.section >= [[AppSystem inst].postsArray count] && [AppSystem inst].postCount >  [[AppSystem inst].postsArray count] && [[AppSystem inst].postsArray count] + 5 < 1000)
         [self loadMore];
 }
 

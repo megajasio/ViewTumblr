@@ -8,6 +8,7 @@
 
 #import "AppSystem.h"
 #import "Posts.h"
+#import "UIFetchableCache.h"
 
 @implementation AppSystem
 @synthesize postsArray, postCount, user;
@@ -30,6 +31,9 @@
         postsArray = [NSMutableArray new];
         postCount = 0;
         user = nil;
+        
+        //remove images cached eariler then 24h ago
+        [UIFetchableCache invalidateCacheOlderThanDate:[[NSDate new] dateByAddingTimeInterval:-24*60*60]];
     }
     return self;
 }

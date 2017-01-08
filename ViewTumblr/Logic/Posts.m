@@ -75,8 +75,6 @@
 
 -(NSAttributedString *) attributedText
 {
-    [NSException raise:NSInternalInconsistencyException
-                format:@"You have not implemented %@ in %@", NSStringFromSelector(_cmd), NSStringFromClass([self class])];
     return nil;
 }
 
