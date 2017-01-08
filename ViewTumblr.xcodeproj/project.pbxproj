@@ -55,7 +55,7 @@
 		CE93CCA41E2069C000B5D998 /* TumblrTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TumblrTableViewController.m; sourceTree = "<group>"; };
 		CE93CCA51E2069C000B5D998 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		CE93CCA61E2069C000B5D998 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
-		CED5DB481E1AD4E4004B9AC1 /* ViewTumbl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewTumbl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED5DB481E1AD4E4004B9AC1 /* ViewTumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewTumblr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED5DB4C1E1AD4E4004B9AC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CED5DB4E1E1AD4E4004B9AC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CED5DB4F1E1AD4E4004B9AC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 				CE93CC991E20414400B5D998 /* UIImageView+Fetchable.m */,
 			);
 			name = UIFetchable;
-			path = ViewTumbl/UIFetchable;
+			path = ViewTumblr/UIFetchable;
 			sourceTree = SOURCE_ROOT;
 		};
 		CE93CC9E1E2069C000B5D998 /* UI */ = {
@@ -130,7 +130,7 @@
 		CED5DB3F1E1AD4E4004B9AC1 = {
 			isa = PBXGroup;
 			children = (
-				CED5DB4A1E1AD4E4004B9AC1 /* ViewTumbl */,
+				CED5DB4A1E1AD4E4004B9AC1 /* ViewTumblr */,
 				CED5DB491E1AD4E4004B9AC1 /* Products */,
 				CED5DB671E1AD6A3004B9AC1 /* Frameworks */,
 			);
@@ -139,12 +139,12 @@
 		CED5DB491E1AD4E4004B9AC1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CED5DB481E1AD4E4004B9AC1 /* ViewTumbl.app */,
+				CED5DB481E1AD4E4004B9AC1 /* ViewTumblr.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CED5DB4A1E1AD4E4004B9AC1 /* ViewTumbl */ = {
+		CED5DB4A1E1AD4E4004B9AC1 /* ViewTumblr */ = {
 			isa = PBXGroup;
 			children = (
 				CED5DB4E1E1AD4E4004B9AC1 /* AppDelegate.h */,
@@ -157,7 +157,7 @@
 				CE930E751E1DB648004724B5 /* Logic */,
 				CE93CC9E1E2069C000B5D998 /* UI */,
 			);
-			path = ViewTumbl;
+			path = ViewTumblr;
 			sourceTree = "<group>";
 		};
 		CED5DB4B1E1AD4E4004B9AC1 /* Supporting Files */ = {
@@ -207,9 +207,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CED5DB471E1AD4E4004B9AC1 /* ViewTumbl */ = {
+		CED5DB471E1AD4E4004B9AC1 /* ViewTumblr */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CED5DB5F1E1AD4E4004B9AC1 /* Build configuration list for PBXNativeTarget "ViewTumbl" */;
+			buildConfigurationList = CED5DB5F1E1AD4E4004B9AC1 /* Build configuration list for PBXNativeTarget "ViewTumblr" */;
 			buildPhases = (
 				CED5DB441E1AD4E4004B9AC1 /* Sources */,
 				CED5DB451E1AD4E4004B9AC1 /* Frameworks */,
@@ -220,9 +220,9 @@
 			);
 			dependencies = (
 			);
-			name = ViewTumbl;
-			productName = ViewTumbl;
-			productReference = CED5DB481E1AD4E4004B9AC1 /* ViewTumbl.app */;
+			name = ViewTumblr;
+			productName = ViewTumblr;
+			productReference = CED5DB481E1AD4E4004B9AC1 /* ViewTumblr.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -240,7 +240,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CED5DB431E1AD4E4004B9AC1 /* Build configuration list for PBXProject "ViewTumbl" */;
+			buildConfigurationList = CED5DB431E1AD4E4004B9AC1 /* Build configuration list for PBXProject "ViewTumblr" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -254,7 +254,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CED5DB471E1AD4E4004B9AC1 /* ViewTumbl */,
+				CED5DB471E1AD4E4004B9AC1 /* ViewTumblr */,
 			);
 		};
 /* End PBXProject section */
@@ -408,10 +408,10 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ViewTumbl/PrefixHeader.pch;
-				INFOPLIST_FILE = ViewTumbl/Info.plist;
+				GCC_PREFIX_HEADER = ViewTumblr/PrefixHeader.pch;
+				INFOPLIST_FILE = ViewTumblr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pl.jansoft.ViewTumbl;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.jansoft.ViewTumblr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -428,10 +428,10 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ViewTumbl/PrefixHeader.pch;
-				INFOPLIST_FILE = ViewTumbl/Info.plist;
+				GCC_PREFIX_HEADER = ViewTumblr/PrefixHeader.pch;
+				INFOPLIST_FILE = ViewTumblr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pl.jansoft.ViewTumbl;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.jansoft.ViewTumblr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -439,7 +439,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CED5DB431E1AD4E4004B9AC1 /* Build configuration list for PBXProject "ViewTumbl" */ = {
+		CED5DB431E1AD4E4004B9AC1 /* Build configuration list for PBXProject "ViewTumblr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CED5DB5D1E1AD4E4004B9AC1 /* Debug */,
@@ -448,7 +448,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CED5DB5F1E1AD4E4004B9AC1 /* Build configuration list for PBXNativeTarget "ViewTumbl" */ = {
+		CED5DB5F1E1AD4E4004B9AC1 /* Build configuration list for PBXNativeTarget "ViewTumblr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CED5DB601E1AD4E4004B9AC1 /* Debug */,
