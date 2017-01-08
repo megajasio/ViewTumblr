@@ -1,0 +1,8 @@
+/* 
+   Localizable.strings
+*/
+
+"error" = "Błąd";
+"loading" = "Ładowanie...";
+"user_name" = "nazwa użytkownika";
+"instructions" = "Wpisz nazwę użytkownika serwisu Tumblr, żeby przejrzeć jego posty.";

@@ -1,0 +1,8 @@
+/* 
+   Localizable.strings
+*/
+
+"error" = "Error";
+"loading" = "Loading...";
+"user_name" = "user name";
+"instructions" = "Input Tumblr user name in the search field to view their Tumblr posts.";

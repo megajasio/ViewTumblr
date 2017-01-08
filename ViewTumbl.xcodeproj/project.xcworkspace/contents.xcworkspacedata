@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ViewTumbl.xcodeproj">
+      location = "self:/Users/megajasio/iPhone/ViewTumbl/ViewTumbl.xcodeproj">
    </FileRef>
 </Workspace>

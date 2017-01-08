@@ -1,0 +1,16 @@
+ //
+//  PrefixHeader.pch
+//  InterCars
+//
+//  Created by Jan Swiezynski on 02.01.2016.
+//  Copyright (c) 2015 jansoft. All rights reserved.
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+
+#if __has_feature(objc_arc) && __clang_major__ >= 3
+#define ARC_ENABLED 1
+#endif
+
+#endif

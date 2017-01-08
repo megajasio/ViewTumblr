@@ -7,25 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE77A9DF1E1C571A00D32CA8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE77A9DC1E1C571A00D32CA8 /* Localizable.strings */; };
+		CE7ACB581E1E911E008AF40D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7ACB571E1E911E008AF40D /* AVFoundation.framework */; };
+		CE930E781E1DB65A004724B5 /* Posts.m in Sources */ = {isa = PBXBuildFile; fileRef = CE930E771E1DB65A004724B5 /* Posts.m */; };
+		CE93CC971E20410200B5D998 /* UIFetchableCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CE93CC961E20410200B5D998 /* UIFetchableCache.m */; };
+		CE93CC9A1E20414400B5D998 /* UIImageView+Fetchable.m in Sources */ = {isa = PBXBuildFile; fileRef = CE93CC991E20414400B5D998 /* UIImageView+Fetchable.m */; };
+		CE93CC9D1E2069B100B5D998 /* AppSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = CE93CC9C1E2069B100B5D998 /* AppSystem.m */; };
+		CE93CCA71E2069C000B5D998 /* LoadingOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE93CCA01E2069C000B5D998 /* LoadingOverlayView.m */; };
+		CE93CCA81E2069C000B5D998 /* TumblrTableViewCells.m in Sources */ = {isa = PBXBuildFile; fileRef = CE93CCA21E2069C000B5D998 /* TumblrTableViewCells.m */; };
+		CE93CCA91E2069C000B5D998 /* TumblrTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE93CCA41E2069C000B5D998 /* TumblrTableViewController.m */; };
+		CE93CCAA1E2069C000B5D998 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE93CCA61E2069C000B5D998 /* SearchViewController.m */; };
 		CED5DB4D1E1AD4E4004B9AC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5DB4C1E1AD4E4004B9AC1 /* main.m */; };
 		CED5DB501E1AD4E4004B9AC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5DB4F1E1AD4E4004B9AC1 /* AppDelegate.m */; };
-		CED5DB531E1AD4E4004B9AC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5DB521E1AD4E4004B9AC1 /* ViewController.m */; };
-		CED5DB561E1AD4E4004B9AC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED5DB541E1AD4E4004B9AC1 /* Main.storyboard */; };
 		CED5DB581E1AD4E4004B9AC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED5DB571E1AD4E4004B9AC1 /* Assets.xcassets */; };
-		CED5DB5B1E1AD4E4004B9AC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED5DB591E1AD4E4004B9AC1 /* LaunchScreen.storyboard */; };
+		CED5DB841E1B120F004B9AC1 /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5DB7D1E1B120F004B9AC1 /* TBXML+HTTP.m */; };
+		CED5DB851E1B120F004B9AC1 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5DB7E1E1B120F004B9AC1 /* TBXML.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildRule section */
+		CED5DB6A1E1AD708004B9AC1 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+/* End PBXBuildRule section */
+
 /* Begin PBXFileReference section */
+		CE77A9DD1E1C571A00D32CA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CE77A9DE1E1C571A00D32CA8 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CE7ACB571E1E911E008AF40D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CE930E761E1DB65A004724B5 /* Posts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Posts.h; sourceTree = "<group>"; };
+		CE930E771E1DB65A004724B5 /* Posts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Posts.m; sourceTree = "<group>"; };
+		CE93CC951E20410200B5D998 /* UIFetchableCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFetchableCache.h; sourceTree = "<group>"; };
+		CE93CC961E20410200B5D998 /* UIFetchableCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFetchableCache.m; sourceTree = "<group>"; };
+		CE93CC981E20414400B5D998 /* UIImageView+Fetchable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Fetchable.h"; sourceTree = "<group>"; };
+		CE93CC991E20414400B5D998 /* UIImageView+Fetchable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Fetchable.m"; sourceTree = "<group>"; };
+		CE93CC9B1E2069B100B5D998 /* AppSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSystem.h; sourceTree = "<group>"; };
+		CE93CC9C1E2069B100B5D998 /* AppSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSystem.m; sourceTree = "<group>"; };
+		CE93CC9F1E2069C000B5D998 /* LoadingOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingOverlayView.h; sourceTree = "<group>"; };
+		CE93CCA01E2069C000B5D998 /* LoadingOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingOverlayView.m; sourceTree = "<group>"; };
+		CE93CCA11E2069C000B5D998 /* TumblrTableViewCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TumblrTableViewCells.h; sourceTree = "<group>"; };
+		CE93CCA21E2069C000B5D998 /* TumblrTableViewCells.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TumblrTableViewCells.m; sourceTree = "<group>"; };
+		CE93CCA31E2069C000B5D998 /* TumblrTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TumblrTableViewController.h; sourceTree = "<group>"; };
+		CE93CCA41E2069C000B5D998 /* TumblrTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TumblrTableViewController.m; sourceTree = "<group>"; };
+		CE93CCA51E2069C000B5D998 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		CE93CCA61E2069C000B5D998 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		CED5DB481E1AD4E4004B9AC1 /* ViewTumbl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewTumbl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED5DB4C1E1AD4E4004B9AC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CED5DB4E1E1AD4E4004B9AC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CED5DB4F1E1AD4E4004B9AC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CED5DB511E1AD4E4004B9AC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CED5DB521E1AD4E4004B9AC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CED5DB551E1AD4E4004B9AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CED5DB571E1AD4E4004B9AC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CED5DB5A1E1AD4E4004B9AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CED5DB5C1E1AD4E4004B9AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED5DB7D1E1B120F004B9AC1 /* TBXML+HTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+HTTP.m"; sourceTree = "<group>"; };
+		CED5DB7E1E1B120F004B9AC1 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		CED5DB811E1B120F004B9AC1 /* TBXML+HTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+HTTP.h"; sourceTree = "<group>"; };
+		CED5DB821E1B120F004B9AC1 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		CED5DB861E1B127D004B9AC1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +73,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE7ACB581E1E911E008AF40D /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE77A9DB1E1C571A00D32CA8 /* Languages */ = {
+			isa = PBXGroup;
+			children = (
+				CE77A9DC1E1C571A00D32CA8 /* Localizable.strings */,
+			);
+			path = Languages;
+			sourceTree = "<group>";
+		};
+		CE930E751E1DB648004724B5 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				CE93CC9B1E2069B100B5D998 /* AppSystem.h */,
+				CE93CC9C1E2069B100B5D998 /* AppSystem.m */,
+				CE930E761E1DB65A004724B5 /* Posts.h */,
+				CE930E771E1DB65A004724B5 /* Posts.m */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		CE93CC941E2040ED00B5D998 /* UIFetchable */ = {
+			isa = PBXGroup;
+			children = (
+				CE93CC951E20410200B5D998 /* UIFetchableCache.h */,
+				CE93CC961E20410200B5D998 /* UIFetchableCache.m */,
+				CE93CC981E20414400B5D998 /* UIImageView+Fetchable.h */,
+				CE93CC991E20414400B5D998 /* UIImageView+Fetchable.m */,
+			);
+			name = UIFetchable;
+			path = ViewTumbl/UIFetchable;
+			sourceTree = SOURCE_ROOT;
+		};
+		CE93CC9E1E2069C000B5D998 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CE93CC941E2040ED00B5D998 /* UIFetchable */,
+				CE93CC9F1E2069C000B5D998 /* LoadingOverlayView.h */,
+				CE93CCA01E2069C000B5D998 /* LoadingOverlayView.m */,
+				CE93CCA11E2069C000B5D998 /* TumblrTableViewCells.h */,
+				CE93CCA21E2069C000B5D998 /* TumblrTableViewCells.m */,
+				CE93CCA31E2069C000B5D998 /* TumblrTableViewController.h */,
+				CE93CCA41E2069C000B5D998 /* TumblrTableViewController.m */,
+				CE93CCA51E2069C000B5D998 /* SearchViewController.h */,
+				CE93CCA61E2069C000B5D998 /* SearchViewController.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		CED5DB3F1E1AD4E4004B9AC1 = {
 			isa = PBXGroup;
 			children = (
 				CED5DB4A1E1AD4E4004B9AC1 /* ViewTumbl */,
 				CED5DB491E1AD4E4004B9AC1 /* Products */,
+				CED5DB671E1AD6A3004B9AC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,13 +149,13 @@
 			children = (
 				CED5DB4E1E1AD4E4004B9AC1 /* AppDelegate.h */,
 				CED5DB4F1E1AD4E4004B9AC1 /* AppDelegate.m */,
-				CED5DB511E1AD4E4004B9AC1 /* ViewController.h */,
-				CED5DB521E1AD4E4004B9AC1 /* ViewController.m */,
-				CED5DB541E1AD4E4004B9AC1 /* Main.storyboard */,
 				CED5DB571E1AD4E4004B9AC1 /* Assets.xcassets */,
-				CED5DB591E1AD4E4004B9AC1 /* LaunchScreen.storyboard */,
 				CED5DB5C1E1AD4E4004B9AC1 /* Info.plist */,
 				CED5DB4B1E1AD4E4004B9AC1 /* Supporting Files */,
+				CE77A9DB1E1C571A00D32CA8 /* Languages */,
+				CED5DB7A1E1B120F004B9AC1 /* Others */,
+				CE930E751E1DB648004724B5 /* Logic */,
+				CE93CC9E1E2069C000B5D998 /* UI */,
 			);
 			path = ViewTumbl;
 			sourceTree = "<group>";
@@ -74,9 +163,45 @@
 		CED5DB4B1E1AD4E4004B9AC1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CED5DB861E1B127D004B9AC1 /* PrefixHeader.pch */,
 				CED5DB4C1E1AD4E4004B9AC1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CED5DB671E1AD6A3004B9AC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE7ACB571E1E911E008AF40D /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CED5DB7A1E1B120F004B9AC1 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				CED5DB7B1E1B120F004B9AC1 /* TBXML-Code */,
+				CED5DB7F1E1B120F004B9AC1 /* TBXML-Headers */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		CED5DB7B1E1B120F004B9AC1 /* TBXML-Code */ = {
+			isa = PBXGroup;
+			children = (
+				CED5DB7D1E1B120F004B9AC1 /* TBXML+HTTP.m */,
+				CED5DB7E1E1B120F004B9AC1 /* TBXML.m */,
+			);
+			path = "TBXML-Code";
+			sourceTree = "<group>";
+		};
+		CED5DB7F1E1B120F004B9AC1 /* TBXML-Headers */ = {
+			isa = PBXGroup;
+			children = (
+				CED5DB811E1B120F004B9AC1 /* TBXML+HTTP.h */,
+				CED5DB821E1B120F004B9AC1 /* TBXML.h */,
+			);
+			path = "TBXML-Headers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +216,7 @@
 				CED5DB461E1AD4E4004B9AC1 /* Resources */,
 			);
 			buildRules = (
+				CED5DB6A1E1AD708004B9AC1 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -110,7 +236,7 @@
 				TargetAttributes = {
 					CED5DB471E1AD4E4004B9AC1 = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -121,6 +247,7 @@
 			knownRegions = (
 				en,
 				Base,
+				pl,
 			);
 			mainGroup = CED5DB3F1E1AD4E4004B9AC1;
 			productRefGroup = CED5DB491E1AD4E4004B9AC1 /* Products */;
@@ -137,9 +264,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED5DB5B1E1AD4E4004B9AC1 /* LaunchScreen.storyboard in Resources */,
+				CE77A9DF1E1C571A00D32CA8 /* Localizable.strings in Resources */,
 				CED5DB581E1AD4E4004B9AC1 /* Assets.xcassets in Resources */,
-				CED5DB561E1AD4E4004B9AC1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,29 +276,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED5DB531E1AD4E4004B9AC1 /* ViewController.m in Sources */,
+				CED5DB851E1B120F004B9AC1 /* TBXML.m in Sources */,
+				CE93CCA91E2069C000B5D998 /* TumblrTableViewController.m in Sources */,
 				CED5DB501E1AD4E4004B9AC1 /* AppDelegate.m in Sources */,
+				CE93CC9A1E20414400B5D998 /* UIImageView+Fetchable.m in Sources */,
 				CED5DB4D1E1AD4E4004B9AC1 /* main.m in Sources */,
+				CE93CC9D1E2069B100B5D998 /* AppSystem.m in Sources */,
+				CE93CCAA1E2069C000B5D998 /* SearchViewController.m in Sources */,
+				CE930E781E1DB65A004724B5 /* Posts.m in Sources */,
+				CED5DB841E1B120F004B9AC1 /* TBXML+HTTP.m in Sources */,
+				CE93CC971E20410200B5D998 /* UIFetchableCache.m in Sources */,
+				CE93CCA71E2069C000B5D998 /* LoadingOverlayView.m in Sources */,
+				CE93CCA81E2069C000B5D998 /* TumblrTableViewCells.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CED5DB541E1AD4E4004B9AC1 /* Main.storyboard */ = {
+		CE77A9DC1E1C571A00D32CA8 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CED5DB551E1AD4E4004B9AC1 /* Base */,
+				CE77A9DD1E1C571A00D32CA8 /* en */,
+				CE77A9DE1E1C571A00D32CA8 /* pl */,
 			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CED5DB591E1AD4E4004B9AC1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CED5DB5A1E1AD4E4004B9AC1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -218,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -260,7 +388,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -272,6 +400,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ViewTumbl/PrefixHeader.pch;
 				INFOPLIST_FILE = ViewTumbl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.jansoft.ViewTumbl;
@@ -283,6 +420,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ViewTumbl/PrefixHeader.pch;
 				INFOPLIST_FILE = ViewTumbl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.jansoft.ViewTumbl;
@@ -309,6 +455,7 @@
 				CED5DB611E1AD4E4004B9AC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
