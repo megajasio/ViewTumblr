@@ -49,6 +49,7 @@
         self.contentView.backgroundColor = [UIColor clearColor];
         self.backgroundColor = [UIColor clearColor];
         spinner = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
+        spinner.color = [UIColor colorWithRed:0.2 green:0.275 blue:0.365 alpha:1.0];
         [self.contentView addSubview:spinner];
     }
     return self;

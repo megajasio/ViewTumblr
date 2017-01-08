@@ -253,7 +253,7 @@
     TBXMLSuccessBlock successBlock = ^(TBXML *tbxmlDocument) {
         // If TBXML found a root node, process element and iterate all children
         int postsDownloaded = 0;
-        int lastPost = [[AppSystem inst].postsArray count];
+        NSUInteger lastPost = [[AppSystem inst].postsArray count];
         if (tbxmlDocument.rootXMLElement)
             postsDownloaded = [[AppSystem inst] parseTumblr:tbxmlDocument.rootXMLElement];
         dispatch_async(dispatch_get_main_queue(), ^{
@@ -270,7 +270,7 @@
         });
     };
     
-    TBXML *tbxml = [[TBXML alloc] initWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://%@.tumblr.com/api/read?start=%d&num=5", [AppSystem inst].user, [[AppSystem inst].postsArray count]]]
+    TBXML *tbxml = [[TBXML alloc] initWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://%@.tumblr.com/api/read?start=%lu&num=5", [AppSystem inst].user, (unsigned long)[[AppSystem inst].postsArray count]]]
                                       success:successBlock
                                       failure:failureBlock];
     NSLog(@"%@", tbxml);
